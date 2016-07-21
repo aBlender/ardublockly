@@ -228,4 +228,68 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="spi_transfer"></block>' +
 '    <block type="spi_transfer_return"></block>' +
 '  </category>' +
+'  <sep></sep>' +
+'  <category id="arduboy" name="Arduboy">' +
+'    <block type="setup_arduboy">' +
+'      <value name="frame_rate">' +
+'        <block type="math_number">' +
+'          <field name="NUM">15</field>' +
+'        </block>' +
+'      </value>' +
+'    </block>' +
+'    <block type="arduboy_clear"></block>' +
+'    <block type="arduboy_display"></block>' +
+'    <block type="arduboy_print_text">' +
+'      <value name="text">' +
+'        <block type="text"></block>' +
+'      </value>' +
+'      <value name="x">' +
+'        <block type="math_number">' +
+'          <field name="NUM">0</field>' +
+'        </block>' +
+'      </value>' +
+'      <value name="y">' +
+'        <block type="math_number">' +
+'          <field name="NUM">0</field>' +
+'        </block>' +
+'      </value>' +
+'    </block>' +
+'    <block type="arduboy_print">' +
+'      <value name="x">' +
+'        <block type="math_number">' +
+'          <field name="NUM">0</field>' +
+'        </block>' +
+'      </value>' +
+'      <value name="y">' +
+'        <block type="math_number">' +
+'          <field name="NUM">0</field>' +
+'        </block>' +
+'      </value>' +
+'    </block>' +
+'    <block type="draw_rectangle">' +
+'      <value name="x">' +
+'        <block type="math_number">' +
+'          <field name="NUM">0</field>' +
+'        </block>' +
+'      </value>' +
+'      <value name="y">' +
+'        <block type="math_number">' +
+'          <field name="NUM">0</field>' +
+'        </block>' +
+'      </value>' +
+'      <value name="width">' +
+'        <block type="math_number">' +
+'          <field name="NUM">10</field>' +
+'        </block>' +
+'      </value>' +
+'      <value name="height">' +
+'        <block type="math_number">' +
+'          <field name="NUM">10</field>' +
+'        </block>' +
+'      </value>' +
+'      <value name="filled">' +
+'        <block type="logic_boolean"></block>' +
+'      </value>' +
+'    </block>' +
+'  </category>' +
 '</xml>';
