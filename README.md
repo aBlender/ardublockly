@@ -1,4 +1,9 @@
-# Ardublockly
+# ArduboyBlockly
+This is a branch of Arudublockly that adds support for [Arduboy][18], the game system the size of a credit card.
+
+![arduboy_screenshot]
+
+## Ardublockly
 Ardublockly is a visual programming editor for Arduino. It is based on Google's [Blockly][1], which has been forked to generate [Arduino][15] code.
 
 The `ArdublocklyServer` Python package initialises a local server to be able to compile and load the Arduino code using the [Arduino IDE][2].
@@ -124,7 +129,9 @@ limitations under the License.
 [15]: http://www.arduino.cc
 [16]: https://github.com/BlocklyDuino/BlocklyDuino
 [17]: blockly/README.md
+[18]: http://www.arduboy.com
 
 [desktop_screeshot]: http://carlosperate.github.io/ardublockly/images/screenshot_desktop_1.png
 [web_screenshot_responsive]: http://carlosperate.github.io/ardublockly/images/screenshot_material_all_small.jpg
 [web_screenshot_classic]: http://carlosperate.github.io/ardublockly/images/screenshot_1.png
+[arduboy_screenshot]: http://ardcomsat1.s3-us-west-2.amazonaws.com/original/2X/0/0de39acd142ab95cf01037c02925399dcaf98ba9.png
