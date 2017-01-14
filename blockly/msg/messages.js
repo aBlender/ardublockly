@@ -1121,7 +1121,7 @@ Blockly.Msg.PROCEDURES_IFRETURN_HELPURL = 'http://c2.com/cgi/wiki?GuardClause';
 /// warning - This appears if the user tries to use this block outside of a function definition.
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = 'Warning: This block may be used only within a function definition.';
 
-// Ardublockly Types
+/// Ardublockly Types
 Blockly.Msg.ARD_TYPE_CHAR = 'Character';
 Blockly.Msg.ARD_TYPE_TEXT = 'Text';
 Blockly.Msg.ARD_TYPE_BOOL = 'Boolean';
@@ -1134,7 +1134,7 @@ Blockly.Msg.ARD_TYPE_NULL = 'Null';
 Blockly.Msg.ARD_TYPE_UNDEF = 'Undefined';
 Blockly.Msg.ARD_TYPE_CHILDBLOCKMISSING = 'ChildBlockMissing';
 
-// Arduino Blocks
+/// Arduino Blocks
 Blockly.Msg.ARD_HIGH = 'HIGH';
 Blockly.Msg.ARD_LOW = 'LOW';
 Blockly.Msg.ARD_ANALOGREAD = 'read analog pin#';
@@ -1197,7 +1197,7 @@ Blockly.Msg.ARD_SPI_TRANS_WARN1 = 'A setup block for %1 must be added to the wor
 Blockly.Msg.ARD_SPI_TRANS_WARN2 = 'Old pin value %1 is no longer available.';
 Blockly.Msg.ARD_SPI_TRANSRETURN_TIP = 'Send a SPI message to an specified slave device and get data back.';
 Blockly.Msg.ARD_STEPPER_SETUP = 'Setup stepper motor';
-Blockly.Msg.ARD_STEPPER_MOTOR = '';
+Blockly.Msg.ARD_STEPPER_MOTOR = 'stepper motor:';
 Blockly.Msg.ARD_STEPPER_DEFAULT_NAME = 'MyStepper';
 Blockly.Msg.ARD_STEPPER_PIN1 = 'pin1#';
 Blockly.Msg.ARD_STEPPER_PIN2 = 'pin2#';
@@ -1208,7 +1208,7 @@ Blockly.Msg.ARD_STEPPER_STEP = 'move stepper';
 Blockly.Msg.ARD_STEPPER_STEPS = 'steps';
 Blockly.Msg.ARD_STEPPER_STEP_TIP = 'Turns the stepper motor a specific number of steps.';
 Blockly.Msg.ARD_STEPPER_COMPONENT = 'stepper';
-Blockly.Msg.ARD_COMPONENT_WARN1 = 'A %1 configuration block with the same %2 name\nmust be added to use this block!';
+Blockly.Msg.ARD_COMPONENT_WARN1 = 'A %1 configuration block with the same %2 name must be added to use this block!';
 Blockly.Msg.ARD_TIME_DELAY = 'wait';
 Blockly.Msg.ARD_TIME_MS = 'milliseconds';
 Blockly.Msg.ARD_TIME_DELAY_TIP = 'Wait specific time in milliseconds';
@@ -1235,7 +1235,7 @@ Blockly.Msg.ARD_TONE_WARNING = 'Frequency must be in range 31 - 65535';
 Blockly.Msg.ARD_NOTONE = 'Turn off tone on pin #';
 Blockly.Msg.ARD_NOTONE_TIP = 'Turns the tone off on the selected pin';
 
-// Ardublockly instances
+/// Ardublockly instances
 Blockly.Msg.NEW_INSTANCE = 'New instance...';
 Blockly.Msg.RENAME_INSTANCE = 'Rename instance...';
 Blockly.Msg.NEW_INSTANCE_TITLE = 'New instance name:';
